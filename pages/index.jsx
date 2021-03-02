@@ -1,7 +1,7 @@
 import React, { useRef,useEffect } from "react";
-import {gsap,TweenMax} from 'gsap';
+import {gsap} from 'gsap';
 
-const Loader = () => {
+const MainPage = () => {
   
   const best=useRef(null);
   const tl=gsap.timeline();
@@ -34,4 +34,4 @@ const Loader = () => {
   );
 }
 
-export default Loader;
+export default MainPage;

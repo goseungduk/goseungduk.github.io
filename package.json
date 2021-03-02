@@ -10,17 +10,39 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git push origin --delete gh-pages && git subtree push --prefix out origin gh-pages"
+    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" &&  git subtree push --prefix out origin gh-pages",
+    "jest": "jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@react-navigation/native": "^5.9.3",
     "gh-pages": "^3.1.0",
     "gsap": "^3.6.0",
     "next": "^10.0.7",
     "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-native": "^0.63.4",
+    "react-native-gesture-handler": "^1.10.2",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-screens": "^2.18.0",
+    "react-navigation": "^4.4.4",
+    "react-navigation-drawer": "^2.7.0",
     "sass": "^1.32.8",
     "sass-loader": "^11.0.1"
   },
-  "homepage": "https://goseungduk.github.io/"
+  "homepage": "https://goseungduk.github.io/",
+  "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "@babel/preset-env": "^7.13.5",
+    "@storybook/addon-actions": "^6.1.20",
+    "@storybook/addon-essentials": "^6.1.20",
+    "@storybook/addon-links": "^6.1.20",
+    "@storybook/react": "^6.1.20",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.20.0",
+    "jest": "^26.6.3",
+    "webpack": "^5.24.2"
+  }
 }
