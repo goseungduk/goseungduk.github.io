@@ -34,16 +34,20 @@ body {
     margin-top:30%;
 }
 #header-wrapper {
-    position: relative;
-    height: 3rem; /* We need to change this value */
-}
-#header{
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    font-family:'Black Han Sans', sans-serif;
-    font-size:2vw;
-    font-weight:200;
+    z-index: 999;
+    top: 30%;
+    right: 50px;
+    transform: translateY(-50%);
+}
+#header-wrapper #header{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#header-wrapper #header{
+    position: relative;
+    min-width: 200px;
+    text-align: right;
 }
 
