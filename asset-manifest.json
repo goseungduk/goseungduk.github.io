@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ebe3b35.chunk.css",
-    "main.js": "/static/js/main.d9fd76ac.chunk.js",
-    "main.js.map": "/static/js/main.d9fd76ac.chunk.js.map",
+    "main.css": "/static/css/main.c8ea3d78.chunk.css",
+    "main.js": "/static/js/main.75035cd4.chunk.js",
+    "main.js.map": "/static/js/main.75035cd4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9d30424c.js",
     "runtime-main.js.map": "/static/js/runtime-main.9d30424c.js.map",
-    "static/js/2.23fe3240.chunk.js": "/static/js/2.23fe3240.chunk.js",
-    "static/js/2.23fe3240.chunk.js.map": "/static/js/2.23fe3240.chunk.js.map",
+    "static/js/2.638932a9.chunk.js": "/static/js/2.638932a9.chunk.js",
+    "static/js/2.638932a9.chunk.js.map": "/static/js/2.638932a9.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8ebe3b35.chunk.css.map": "/static/css/main.8ebe3b35.chunk.css.map",
-    "static/js/2.23fe3240.chunk.js.LICENSE.txt": "/static/js/2.23fe3240.chunk.js.LICENSE.txt",
+    "static/css/main.c8ea3d78.chunk.css.map": "/static/css/main.c8ea3d78.chunk.css.map",
+    "static/js/2.638932a9.chunk.js.LICENSE.txt": "/static/js/2.638932a9.chunk.js.LICENSE.txt",
     "static/media/globals.scss": "/static/media/depressionRose.73d4ba89.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9d30424c.js",
-    "static/js/2.23fe3240.chunk.js",
-    "static/css/main.8ebe3b35.chunk.css",
-    "static/js/main.d9fd76ac.chunk.js"
+    "static/js/2.638932a9.chunk.js",
+    "static/css/main.c8ea3d78.chunk.css",
+    "static/js/main.75035cd4.chunk.js"
   ]
 }
