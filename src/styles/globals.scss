@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
 
 body {
-    background: url('../images/depressionRose.jpg');
+    background: url('../images/depressionRose2.jpg');
     height: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -65,3 +66,49 @@ a {
     font-weight: 700;
     min-width: 200px;
 }
+#profile {
+    background-color: #ebebeb;
+}
+#profile h1 {
+    font-family: 'Sansita Swashed', cursive;
+    margin-left: 1.5%;
+    padding-top: 0.7%;
+}
+#profile ul{
+    font-size:0;
+    list-style-type: none;
+}
+#education {
+    background-color: #ebebeb;
+}
+#education h1 {
+    margin-left: 1.5%;
+    padding-top: 0.7%;
+}
+#education ul{
+    font-size:0;
+    list-style-type: none;
+}
+#projects {
+    background-color: #ebebeb;
+}
+#projects h1 {
+    margin-left: 1.5%;
+    padding-top: 0.7%;
+}
+#projects ul{
+    font-size:0;
+    list-style-type: none;
+}
+#awards {
+    background-color: #ebebeb;
+}
+#awards h1 {
+    margin-left: 1.5%;
+    padding-top: 0.7%;
+}
+#pawards ul{
+    font-size:0;
+    list-style-type: none;
+}
+
