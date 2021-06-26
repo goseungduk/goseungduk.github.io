@@ -66,49 +66,22 @@ a {
     font-weight: 700;
     min-width: 200px;
 }
-#profile {
+.middleSections div {
     background-color: #ebebeb;
+    opacity:0.8;
+
 }
-#profile h1 {
+.middleSections div h1 {
     font-family: 'Sansita Swashed', cursive;
     margin-left: 1.5%;
+    margin-bottom: 1.3em;
     padding-top: 0.7%;
-}
-#profile ul{
-    font-size:0;
-    list-style-type: none;
-}
-#education {
-    background-color: #ebebeb;
-}
-#education h1 {
-    margin-left: 1.5%;
-    padding-top: 0.7%;
-}
-#education ul{
-    font-size:0;
-    list-style-type: none;
-}
-#projects {
-    background-color: #ebebeb;
-}
-#projects h1 {
-    margin-left: 1.5%;
-    padding-top: 0.7%;
-}
-#projects ul{
-    font-size:0;
-    list-style-type: none;
-}
-#awards {
-    background-color: #ebebeb;
-}
-#awards h1 {
-    margin-left: 1.5%;
-    padding-top: 0.7%;
-}
-#pawards ul{
-    font-size:0;
-    list-style-type: none;
-}
 
+}
+.middleSections div ul {
+    font-size:0;
+    list-style-type: none;
+}
+.middleSections div ul li {
+    margin-bottom:20px;
+}
