@@ -2,6 +2,7 @@ import React, { useRef,useEffect } from "react";
 import {gsap} from 'gsap';
 import Header from './components/Header'
 import MiddleSection from './components/MiddleSection'
+import Footer from './components/Footer';
 
 const MainPage = () => {  
   const main_slogan=useRef(null);
@@ -34,6 +35,7 @@ const MainPage = () => {
         </h1>
       </div>
       <MiddleSection></MiddleSection>
+      <Footer></Footer>
   </div>
   );
 }

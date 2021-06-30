@@ -50,13 +50,13 @@ const Header = () => {
                     </a>
                 </li>
                 <li>
-                    <a data-scroll="projects" className="menu" href="#projects">
-                        <span>Projects</span>
+                    <a data-scroll="awards" className="menu" href="#awards">
+                        <span>Awards</span>
                     </a>
                 </li>
                 <li>
-                    <a data-scroll="awards" className="menu" href="#awards">
-                        <span>Awards</span>
+                    <a data-scroll="projects" className="menu" href="#projects">
+                        <span>Projects</span>
                     </a>
                 </li>
             </ul>
