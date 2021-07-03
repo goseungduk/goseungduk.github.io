@@ -100,6 +100,7 @@ const MiddleSection = () => {
         <div>
           <ul>
             <li style={{verticalAlign:"center",marginBottom:"28px"}}>
+            <img src={Project} style={{float:'left'}} width="28px" alt="project"></img>
               <span style={{fontSize:20,marginLeft:"1%"}}>IDA 안티디버깅 자동해제 플러그인 개발 프로젝트(2019)</span>
             </li>
           </ul>

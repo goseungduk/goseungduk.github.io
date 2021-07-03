@@ -1,6 +1,7 @@
 import React, {useRef, useEffect} from 'react';
 import {gsap} from 'gsap';
-
+import TISTORY from '../images/tistory.png';
+import GITHUB from '../statics/github.svg';
 
 const Header = () => {
     let sections=document.getElementsByClassName(("menu"));
@@ -58,6 +59,10 @@ const Header = () => {
                     <a data-scroll="projects" className="menu" href="#projects">
                         <span>Projects</span>
                     </a>
+                </li>
+                <li>
+                    <a href="https://goseungduk.tistory.com" rel="noreferrer" target="_blank"><img src={TISTORY} style={{float:'left', width:28,marginRight:5}} alt="tistory"></img></a>
+                    <a href="https://github.com/goseungduk" rel="noreferrer" target="_blank"><img src={GITHUB} style={{wfloat:'left',width:28,marginRight:5}} alt="github"></img></a>
                 </li>
             </ul>
         </div>    
