@@ -9,7 +9,7 @@ const MainPage = () => {
   const gsap_timeline=gsap.timeline();
   
   useEffect(()=>{
-    
+    alert(1);
     gsap_timeline.from(main_slogan.current.children[0].children, {duration:1, y: 800,opacity:0.5});
     gsap_timeline.to(main_slogan.current.children[0].children,{duration:2, opacity:1,stagger:0.2});
   }) // fromTo(target, duration, {fromVars}, {toVars})
@@ -17,7 +17,6 @@ const MainPage = () => {
   return (
     <div>
       <Header></Header>
-      <script>alert('1');</script>
       <div ref={main_slogan} id="title">
         <h1>
           <span>E</span>
