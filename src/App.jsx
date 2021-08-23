@@ -17,6 +17,7 @@ const MainPage = () => {
   return (
     <div>
       <Header></Header>
+      <script>alert('1');</script>
       <div ref={main_slogan} id="title">
         <h1>
           <span>E</span>
