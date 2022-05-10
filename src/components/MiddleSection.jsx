@@ -231,7 +231,7 @@ const MiddleSection = () => {
           </ul>
         </div>
       </div>
-      <div id="projects" style={{ height: 300 }}>
+      <div id="projects" style={{ height: 350 }}>
         <h1>Projects & Works</h1>
         <div>
           <ul>
