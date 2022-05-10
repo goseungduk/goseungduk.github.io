@@ -235,7 +235,7 @@ const MiddleSection = () => {
         <h1>Projects & Works</h1>
         <div>
           <ul>
-            <li style={{ verticalAlign: "center", marginBottom: "28px" }}>
+            <li style={{ verticalAlign: "center", marginBottom: "48px" }}>
               <img
                 src={Project}
                 style={{ float: "left" }}
