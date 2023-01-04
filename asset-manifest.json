@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ba8b271e.chunk.css",
-    "main.js": "/static/js/main.a211b008.chunk.js",
-    "main.js.map": "/static/js/main.a211b008.chunk.js.map",
+    "main.js": "/static/js/main.7d05d481.chunk.js",
+    "main.js.map": "/static/js/main.7d05d481.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9d30424c.js",
     "runtime-main.js.map": "/static/js/runtime-main.9d30424c.js.map",
     "static/js/2.638932a9.chunk.js": "/static/js/2.638932a9.chunk.js",
@@ -15,8 +15,8 @@
     "static/media/github.4e30a204.svg": "/static/media/github.4e30a204.svg",
     "static/media/graduation2.93100737.svg": "/static/media/graduation2.93100737.svg",
     "static/media/group.c4d7d4a1.svg": "/static/media/group.c4d7d4a1.svg",
-    "static/media/location.4458e180.svg": "/static/media/location.4458e180.svg",
-    "static/media/mail1.a20e505e.svg": "/static/media/mail1.a20e505e.svg",
+    "static/media/location.90fb5d70.svg": "/static/media/location.90fb5d70.svg",
+    "static/media/mail1.86a92234.svg": "/static/media/mail1.86a92234.svg",
     "static/media/name.bf7186fe.svg": "/static/media/name.bf7186fe.svg",
     "static/media/project.728216e6.svg": "/static/media/project.728216e6.svg",
     "static/media/roka.0271c9cf.png": "/static/media/roka.0271c9cf.png",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.9d30424c.js",
     "static/js/2.638932a9.chunk.js",
     "static/css/main.ba8b271e.chunk.css",
-    "static/js/main.a211b008.chunk.js"
+    "static/js/main.7d05d481.chunk.js"
   ]
 }
